@@ -1,0 +1,121 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//UCSD Physics seminars (unofficial scrape)//EN
+X-WR-CALNAME:UCSD Physics Seminars
+X-WR-TIMEZONE:America/Los_Angeles
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+COMMENT:This timezone only works from 1970-01-01 to 2038-01-01.
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZNAME:PST
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0800
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:19700426T030000
+RDATE:19710425T030000,19720430T030000,19730429T030000,19740106T030000,1975
+ 0223T030000,19760425T030000,19770424T030000,19780430T030000,19790429T03000
+ 0,19800427T030000,19810426T030000,19820425T030000,19830424T030000,19840429
+ T030000,19850428T030000,19860427T030000,19870405T030000,19880403T030000,19
+ 890402T030000,19900401T030000,19910407T030000,19920405T030000,19930404T030
+ 000,19940403T030000,19950402T030000,19960407T030000,19970406T030000,199804
+ 05T030000,19990404T030000,20000402T030000,20010401T030000,20020407T030000,
+ 20030406T030000,20040404T030000,20050403T030000,20060402T030000,20070311T0
+ 30000,20080309T030000,20090308T030000,20100314T030000,20110313T030000,2012
+ 0311T030000,20130310T030000,20140309T030000,20150308T030000,20160313T03000
+ 0,20170312T030000,20180311T030000,20190310T030000,20200308T030000,20210314
+ T030000,20220313T030000,20230312T030000,20240310T030000,20250309T030000,20
+ 260308T030000,20270314T030000,20280312T030000,20290311T030000,20300310T030
+ 000,20310309T030000,20320314T030000,20330313T030000,20340312T030000,203503
+ 11T030000,20360309T030000,20370308T030000
+TZNAME:PDT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:19701025T020000
+RDATE:19711031T020000,19721029T020000,19731028T020000,19741027T020000,1975
+ 1026T020000,19761031T020000,19771030T020000,19781029T020000,19791028T02000
+ 0,19801026T020000,19811025T020000,19821031T020000,19831030T020000,19841028
+ T020000,19851027T020000,19861026T020000,19871025T020000,19881030T020000,19
+ 891029T020000,19901028T020000,19911027T020000,19921025T020000,19931031T020
+ 000,19941030T020000,19951029T020000,19961027T020000,19971026T020000,199810
+ 25T020000,19991031T020000,20001029T020000,20011028T020000,20021027T020000,
+ 20031026T020000,20041031T020000,20051030T020000,20061029T020000,20071104T0
+ 20000,20081102T020000,20091101T020000,20101107T020000,20111106T020000,2012
+ 1104T020000,20131103T020000,20141102T020000,20151101T020000,20161106T02000
+ 0,20171105T020000,20181104T020000,20191103T020000,20201101T020000,20211107
+ T020000,20221106T020000,20231105T020000,20241103T020000,20251102T020000,20
+ 261101T020000,20271107T020000,20281105T020000,20291104T020000,20301103T020
+ 000,20311102T020000,20321107T020000,20331106T020000,20341105T020000,203511
+ 04T020000,20361102T020000,20371101T020000
+TZNAME:PST
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:[Astrophysics and Cosmology] A Birefringence-Blind Consistency Tes
+ t of the Planck Cosmic Birefringence Hint — Anto I. Lonappan (UCSD)
+DTSTART;TZID=America/Los_Angeles:20260928T120000
+DTEND;TZID=America/Los_Angeles:20260928T130000
+DTSTAMP:20260925T070000Z
+UID:2793@physics.ucsd.edu
+DESCRIPTION:Speaker: Anto I. Lonappan (UCSD)\n\nAbstract:\nSeveral analyse
+ s of Planck\, ACT\, and WMAP data report a small uniform rotation of CMB p
+ olarization\, β ≈ 0.3–0.4°. If real\, this would be evidence of pari
+ ty-violating physics such as axion-like fields coupled to photons. At this
+  level\, however\, the signal is exactly degenerate with an overall miscal
+ ibration of the detectors' polarization angles. The leading method\, the M
+ inami–Komatsu (MK) likelihood\, breaks this degeneracy by using Galactic
+  dust as a calibrator. That makes its detector angles\, and therefore β\,
+  dependent on how the dust EB correlation is modeled.\nIn this talk\, I wi
+ ll present a complementary test that never uses that foreground model. For
+  any pair of maps\, the cosmic rotation cancels exactly\, leaving only the
+  relative instrumental angle. We measure these relative angles from antisy
+ mmetric and symmetric cross-spectra. We then combine all pairs into a gaug
+ e-fixed calibration network\, with maps as nodes and pairwise angles as ed
+ ges\, to reconstruct each detector's calibration offset.\nApplied to eight
+  Planck NPIPE detector-set maps\, the network reconstruction agrees with t
+ he MK calibration pattern (χ² = 8.18 for 7 degrees of freedom\, PTE = 0.
+ 32)\, with no map deviating by more than 1.8σ. I will explain what this d
+ oes and does not tell us. Because both methods use the same maps\, this is
+  an independent method rather than independent data. It supports the calib
+ ration foundation of the β hint but cannot fix its absolute zero point.\n
+ I will close by discussing how a sub-0.1° external calibration anchor\, c
+ ombined with this network\, could deliver an absolute birefringence measur
+ ement. This will be possible with BICEP/Keck\, SPT-3G\, the Simons Observa
+ tory\, and LiteBIRD.\nAbout the Astro/Cosmology Seminar series:\nThe Ce
+ nter for Dark Cosmology and Gravitation seminar series (aka\, the Depart
+ ment of Physics Astrophysics and Cosmology Seminar) will showcase key dev
+ elopments in astrophysics and cosmology\, the implications of these for fu
+ ndamental physics\, and vice versa\, the implications of laboratory partic
+ le physics discoveries for our understanding of the cosmos. Among the outs
+ tanding issues in physics\, the nature of the dark matter and dark energy 
+ and the origin of the supermassive black holes very early in the history o
+ f the universe stand out as venues where beyond standard model physics is 
+ at play or likely plays a role. The pace of discovery in this field is bre
+ athtaking. The advent of gravitational wave observatories\, the James Webb
+  Space Telescope\, and the Simons Observatory for the cosmic microwave bac
+ kground all complement a host of laboratory experiments including LHC\, sh
+ ort and long baseline neutrino oscillation experiments\, neutrino less dou
+ ble beta decay searches\, and direct dark matter detection experiments\, t
+ o name just a few. Moreover\, all of these research thrusts are underpinne
+ d by rapid development of computational capabilities and artificial intell
+ igence. The CDCG is dedicated to facilitating and bridging laboratory\, ob
+ servational\, theoretical and computational studies focussed on the cosmos
+ .\n\nhttps://physics.ucsd.edu/events/seminars-colloquia
+LOCATION:Mayer Room 4322
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Condensed Matter Seminar — Yuhang Deng
+DTSTART;TZID=America/Los_Angeles:20261007T160000
+DTEND;TZID=America/Los_Angeles:20261007T170000
+DTSTAMP:20260920T070000Z
+UID:2772@physics.ucsd.edu
+DESCRIPTION:Speaker: Yuhang Deng\n\nhttps://physics.ucsd.edu/events/semina
+ rs-colloquia
+LOCATION:Mayer 4322
+END:VEVENT
+END:VCALENDAR
