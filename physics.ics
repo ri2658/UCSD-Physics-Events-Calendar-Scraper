@@ -62,50 +62,52 @@ DTSTART;TZID=America/Los_Angeles:20260928T120000
 DTEND;TZID=America/Los_Angeles:20260928T130000
 DTSTAMP:20260925T070000Z
 UID:2793@physics.ucsd.edu
-DESCRIPTION:Speaker: Anto I. Lonappan (UCSD)\n\nAbstract:\nSeveral analyse
- s of Planck\, ACT\, and WMAP data report a small uniform rotation of CMB p
- olarization\, β ≈ 0.3–0.4°. If real\, this would be evidence of pari
- ty-violating physics such as axion-like fields coupled to photons. At this
-  level\, however\, the signal is exactly degenerate with an overall miscal
- ibration of the detectors' polarization angles. The leading method\, the M
- inami–Komatsu (MK) likelihood\, breaks this degeneracy by using Galactic
-  dust as a calibrator. That makes its detector angles\, and therefore β\,
-  dependent on how the dust EB correlation is modeled.\nIn this talk\, I wi
- ll present a complementary test that never uses that foreground model. For
-  any pair of maps\, the cosmic rotation cancels exactly\, leaving only the
-  relative instrumental angle. We measure these relative angles from antisy
- mmetric and symmetric cross-spectra. We then combine all pairs into a gaug
- e-fixed calibration network\, with maps as nodes and pairwise angles as ed
- ges\, to reconstruct each detector's calibration offset.\nApplied to eight
-  Planck NPIPE detector-set maps\, the network reconstruction agrees with t
- he MK calibration pattern (χ² = 8.18 for 7 degrees of freedom\, PTE = 0.
- 32)\, with no map deviating by more than 1.8σ. I will explain what this d
- oes and does not tell us. Because both methods use the same maps\, this is
-  an independent method rather than independent data. It supports the calib
- ration foundation of the β hint but cannot fix its absolute zero point.\n
- I will close by discussing how a sub-0.1° external calibration anchor\, c
- ombined with this network\, could deliver an absolute birefringence measur
- ement. This will be possible with BICEP/Keck\, SPT-3G\, the Simons Observa
- tory\, and LiteBIRD.\nAbout the Astro/Cosmology Seminar series:\nThe Ce
- nter for Dark Cosmology and Gravitation seminar series (aka\, the Depart
- ment of Physics Astrophysics and Cosmology Seminar) will showcase key dev
- elopments in astrophysics and cosmology\, the implications of these for fu
- ndamental physics\, and vice versa\, the implications of laboratory partic
- le physics discoveries for our understanding of the cosmos. Among the outs
- tanding issues in physics\, the nature of the dark matter and dark energy 
- and the origin of the supermassive black holes very early in the history o
- f the universe stand out as venues where beyond standard model physics is 
- at play or likely plays a role. The pace of discovery in this field is bre
- athtaking. The advent of gravitational wave observatories\, the James Webb
-  Space Telescope\, and the Simons Observatory for the cosmic microwave bac
- kground all complement a host of laboratory experiments including LHC\, sh
- ort and long baseline neutrino oscillation experiments\, neutrino less dou
- ble beta decay searches\, and direct dark matter detection experiments\, t
- o name just a few. Moreover\, all of these research thrusts are underpinne
- d by rapid development of computational capabilities and artificial intell
- igence. The CDCG is dedicated to facilitating and bridging laboratory\, ob
- servational\, theoretical and computational studies focussed on the cosmos
- .\n\nhttps://physics.ucsd.edu/events/seminars-colloquia
+DESCRIPTION:<b>Speaker:</b> Anto I. Lonappan (UCSD)<br><br><b>Abstract:</b
+ ><br>Several analyses of Planck\, ACT\, and WMAP data report a small unifo
+ rm rotation of CMB polarization\, β ≈ 0.3–0.4°. If real\, this would
+  be evidence of parity-violating physics such as axion-like fields coupled
+  to photons. At this level\, however\, the signal is exactly degenerate wi
+ th an overall miscalibration of the detectors' polarization angles. The le
+ ading method\, the Minami–Komatsu (MK) likelihood\, breaks this degenera
+ cy by using Galactic dust as a calibrator. That makes its detector angles
+ \, and therefore β\, dependent on how the dust EB correlation is modeled.
+ <br><br>In this talk\, I will present a complementary test that never uses
+  that foreground model. For any pair of maps\, the cosmic rotation cancels
+  exactly\, leaving only the relative instrumental angle. We measure these 
+ relative angles from antisymmetric and symmetric cross-spectra. We then co
+ mbine all pairs into a gauge-fixed calibration network\, with maps as node
+ s and pairwise angles as edges\, to reconstruct each detector's calibratio
+ n offset.<br><br>Applied to eight Planck NPIPE detector-set maps\, the net
+ work reconstruction agrees with the MK calibration pattern (χ² = 8.18 fo
+ r 7 degrees of freedom\, PTE = 0.32)\, with no map deviating by more than 
+ 1.8σ. I will explain what this does and does not tell us. Because both me
+ thods use the same maps\, this is an independent method rather than indepe
+ ndent data. It supports the calibration foundation of the β hint but cann
+ ot fix its absolute zero point.<br><br>I will close by discussing how a su
+ b-0.1° external calibration anchor\, combined with this network\, could d
+ eliver an absolute birefringence measurement. This will be possible with B
+ ICEP/Keck\, SPT-3G\, the Simons Observatory\, and LiteBIRD.<br><br><b>Abou
+ t the Astro/Cosmology Seminar series:</b><br>The Center for Dark Cosmology
+  and Gravitation seminar series (aka\, the Department of Physics Astrophys
+ ics and Cosmology Seminar) will showcase key developments in astrophysics 
+ and cosmology\, the implications of these for fundamental physics\, and vi
+ ce versa\, the implications of laboratory particle physics discoveries for
+  our understanding of the cosmos. Among the outstanding issues in physics
+ \, the nature of the dark matter and dark energy and the origin of the sup
+ ermassive black holes very early in the history of the universe stand out 
+ as venues where beyond standard model physics is at play or likely plays a
+  role. The pace of discovery in this field is breathtaking. The advent of 
+ gravitational wave observatories\, the James Webb Space Telescope\, and th
+ e Simons Observatory for the cosmic microwave background all complement a 
+ host of laboratory experiments including LHC\, short and long baseline neu
+ trino oscillation experiments\, neutrino less double beta decay searches\,
+  and direct dark matter detection experiments\, to name just a few. Moreov
+ er\, all of these research thrusts are underpinned by rapid development of
+  computational capabilities and artificial intelligence. The CDCG is dedic
+ ated to facilitating and bridging laboratory\, observational\, theoretical
+  and computational studies focussed on the cosmos.<br><br><a href="https:/
+ /physics.ucsd.edu/events/seminars-colloquia">https://physics.ucsd.edu/even
+ ts/seminars-colloquia</a>
 LOCATION:Mayer Room 4322
 END:VEVENT
 BEGIN:VEVENT
@@ -114,8 +116,9 @@ DTSTART;TZID=America/Los_Angeles:20261007T160000
 DTEND;TZID=America/Los_Angeles:20261007T170000
 DTSTAMP:20260920T070000Z
 UID:2772@physics.ucsd.edu
-DESCRIPTION:Speaker: Yuhang Deng\n\nhttps://physics.ucsd.edu/events/semina
- rs-colloquia
+DESCRIPTION:<b>Speaker:</b> Yuhang Deng<br><br><a href="https://physics.uc
+ sd.edu/events/seminars-colloquia">https://physics.ucsd.edu/events/seminars
+ -colloquia</a>
 LOCATION:Mayer 4322
 END:VEVENT
 END:VCALENDAR

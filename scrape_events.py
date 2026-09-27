@@ -13,8 +13,10 @@ Usage:
     python scrape_events.py            # writes physics.ics + events_archive.csv
 """
 
+import re
 import time
 from datetime import datetime, timedelta
+from html import escape
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -62,6 +64,50 @@ def html_to_text(html):
     return bs4.BeautifulSoup(html, "html.parser").get_text("\n").strip()
 
 
+BLOCK_TAGS = {"p", "div", "li", "h1", "h2", "h3", "h4", "h5", "h6", "blockquote"}
+PARA = "\x00"   # placeholder for a paragraph boundary
+
+
+def _render(node):
+    """Rebuild the minimal HTML Google Calendar understands (<b>, <i>, <u>, <a>, <br>)."""
+    if isinstance(node, bs4.NavigableString):
+        return escape(re.sub(r"\s+", " ", str(node)), quote=False)
+    inner = "".join(_render(c) for c in node.children)
+    name = node.name
+    if name in ("strong", "b"):
+        return f"<b>{inner}</b>"
+    if name in ("em", "i"):
+        return f"<i>{inner}</i>"
+    if name == "u":
+        return f"<u>{inner}</u>"
+    if name == "a" and node.get("href"):
+        return f'<a href="{escape(node["href"])}">{inner}</a>'
+    if name == "br":
+        return "<br>"
+    if name == "li":
+        return f"{PARA}• {inner}{PARA}"
+    if name in BLOCK_TAGS:
+        return f"{PARA}{inner}{PARA}"
+    return inner
+
+
+def html_to_gcal(html):
+    """event_abstract HTML -> Google Calendar description HTML, with a blank line between paragraphs."""
+    if not isinstance(html, str) or not html.strip():
+        return ""
+    rendered = _render(bs4.BeautifulSoup(html, "html.parser"))
+    paragraphs = []
+    for p in rendered.split(PARA):
+        p = p.strip()
+        while p.startswith("<br>"):
+            p = p[4:].strip()
+        while p.endswith("<br>"):
+            p = p[:-4].strip()
+        if p:
+            paragraphs.append(p)
+    return "<br><br>".join(paragraphs)
+
+
 def parse_when(date_str, time_str):
     """'September 28, 2026' + '12:00 PM' -> timezone-aware datetime."""
     if not isinstance(date_str, str) or not isinstance(time_str, str) or not time_str.strip():
@@ -90,7 +136,7 @@ def process_event(row):
         "start": start.isoformat() if start else None,
         "end": end.isoformat() if end else None,
         "location": html_to_text(row.get("event_location")),
-        "abstract": html_to_text(row.get("event_abstract")),
+        "abstract": html_to_gcal(row.get("event_abstract")),
         "updated_at": row.get("updated_at") or "",
     }
 
@@ -140,9 +186,11 @@ def build_calendar(events):
             stamp = datetime.fromisoformat(ev["start"]).astimezone(TZ)
         e.add("dtstamp", stamp)
         e.add("location", ev["location"])
-        desc = "\n\n".join(x for x in [f"Speaker: {ev['speaker']}" if ev["speaker"] else "",
-                                         ev["abstract"],
-                                         "https://physics.ucsd.edu/events/seminars-colloquia"] if x)
+        # Google Calendar renders basic HTML in descriptions, so use <b>/<br> rather than "\n".
+        url = "https://physics.ucsd.edu/events/seminars-colloquia"
+        desc = "<br><br>".join(x for x in [f"<b>Speaker:</b> {escape(ev['speaker'])}" if ev["speaker"] else "",
+                                           ev["abstract"],
+                                           f'<a href="{url}">{url}</a>'] if x)
         e.add("description", desc)
         cal.add_component(e)
     cal.add_missing_timezones()   # embeds a VTIMEZONE block so every calendar app agrees
