@@ -64,45 +64,14 @@ def html_to_text(html):
     return bs4.BeautifulSoup(html, "html.parser").get_text("\n").strip()
 
 
-<<<<<<< HEAD
-BLOCK_TAGS = {"p", "div", "li", "ul", "ol", "blockquote", "h1", "h2", "h3", "h4", "h5", "h6"}
-PARA = "\x00"   # paragraph-break marker, turned into a blank line at the end
-
-
-def html_to_gcal(html):
-    """Reduce the site's abstract HTML to the tags Google Calendar renders (<b>, <i>, <a>, <br>),
-    keeping bold section titles like "Abstract:" and putting a blank line between paragraphs."""
-    if not isinstance(html, str) or not html.strip():
-        return ""
-
-    def render(node):
-        if isinstance(node, bs4.Comment):
-            return ""
-        if isinstance(node, bs4.NavigableString):
-            return escape(re.sub(r"\s+", " ", str(node)), quote=False)
-        inner = "".join(render(c) for c in node.children)
-        if node.name == "br":
-            return "<br>"
-        if node.name in ("strong", "b") or node.name in ("h1", "h2", "h3", "h4", "h5", "h6"):
-            inner = f"<b>{inner}</b>" if inner.strip() else inner
-        elif node.name in ("em", "i"):
-            inner = f"<i>{inner}</i>" if inner.strip() else inner
-        elif node.name == "a" and node.get("href"):
-            inner = f'<a href="{escape(node["href"])}">{inner}</a>'
-        if node.name == "li":
-            inner = "• " + inner
-        return f"{PARA}{inner}{PARA}" if node.name in BLOCK_TAGS else inner
-
-    out = render(bs4.BeautifulSoup(html, "html.parser"))
-    paras = (re.sub(r"^(\s|<br>)+|(\s|<br>)+$", "", p) for p in out.split(PARA))
-    return "<br><br>".join(p for p in paras if p)
-=======
 BLOCK_TAGS = {"p", "div", "li", "h1", "h2", "h3", "h4", "h5", "h6", "blockquote"}
 PARA = "\x00"   # placeholder for a paragraph boundary
 
 
 def _render(node):
     """Rebuild the minimal HTML Google Calendar understands (<b>, <i>, <u>, <a>, <br>)."""
+    if isinstance(node, bs4.Comment):
+        return ""
     if isinstance(node, bs4.NavigableString):
         return escape(re.sub(r"\s+", " ", str(node)), quote=False)
     inner = "".join(_render(c) for c in node.children)
@@ -139,7 +108,6 @@ def html_to_gcal(html):
         if p:
             paragraphs.append(p)
     return "<br><br>".join(paragraphs)
->>>>>>> b4480bf0236c70406ab1d4639f73d60a464df339
 
 
 def parse_when(date_str, time_str):
@@ -170,12 +138,7 @@ def process_event(row):
         "start": start.isoformat() if start else None,
         "end": end.isoformat() if end else None,
         "location": html_to_text(row.get("event_location")),
-<<<<<<< HEAD
-        "abstract": html_to_text(row.get("event_abstract")),
-        "abstract_html": html_to_gcal(row.get("event_abstract")),
-=======
         "abstract": html_to_gcal(row.get("event_abstract")),
->>>>>>> b4480bf0236c70406ab1d4639f73d60a464df339
         "updated_at": row.get("updated_at") or "",
     }
 
@@ -225,23 +188,11 @@ def build_calendar(events):
             stamp = datetime.fromisoformat(ev["start"]).astimezone(TZ)
         e.add("dtstamp", stamp)
         e.add("location", ev["location"])
-<<<<<<< HEAD
-        # Google Calendar renders simple HTML in descriptions, so build the description
-        # as HTML: bold section titles, and a blank line (<br><br>) between paragraphs.
-        abstract = ev.get("abstract_html")
-        if not isinstance(abstract, str) or not abstract:
-            # Rows archived before abstract_html existed only have plain text.
-            abstract = escape(ev["abstract"], quote=False).replace("\n", "<br>")
-        desc = "<br><br>".join(x for x in [f"<b>Speaker:</b> {escape(ev['speaker'], quote=False)}" if ev["speaker"] else "",
-                                             abstract,
-                                             "https://physics.ucsd.edu/events/seminars-colloquia"] if x)
-=======
         # Google Calendar renders basic HTML in descriptions, so use <b>/<br> rather than "\n".
         url = "https://physics.ucsd.edu/events/seminars-colloquia"
         desc = "<br><br>".join(x for x in [f"<b>Speaker:</b> {escape(ev['speaker'])}" if ev["speaker"] else "",
                                            ev["abstract"],
                                            f'<a href="{url}">{url}</a>'] if x)
->>>>>>> b4480bf0236c70406ab1d4639f73d60a464df339
         e.add("description", desc)
         cal.add_component(e)
     cal.add_missing_timezones()   # embeds a VTIMEZONE block so every calendar app agrees
@@ -252,7 +203,7 @@ def main():
     raw = download_all()
     print(f"Downloaded {len(raw)} upcoming events")
     new = pd.DataFrame([process_event(r) for r in raw.to_dict("records")]) if len(raw) else \
-        pd.DataFrame(columns=["event_id", "title", "series", "speaker", "start", "end", "location", "abstract", "abstract_html", "updated_at"])
+        pd.DataFrame(columns=["event_id", "title", "series", "speaker", "start", "end", "location", "abstract", "updated_at"])
     events = merge_with_archive(new)
     events.to_csv(ARCHIVE, index=False)
     OUTPUT.write_bytes(build_calendar(events).to_ical())
