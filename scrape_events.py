@@ -13,8 +13,10 @@ Usage:
     python scrape_events.py            # writes physics.ics + events_archive.csv
 """
 
+import re
 import time
 from datetime import datetime, timedelta
+from html import escape
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -62,6 +64,39 @@ def html_to_text(html):
     return bs4.BeautifulSoup(html, "html.parser").get_text("\n").strip()
 
 
+BLOCK_TAGS = {"p", "div", "li", "ul", "ol", "blockquote", "h1", "h2", "h3", "h4", "h5", "h6"}
+PARA = "\x00"   # paragraph-break marker, turned into a blank line at the end
+
+
+def html_to_gcal(html):
+    """Reduce the site's abstract HTML to the tags Google Calendar renders (<b>, <i>, <a>, <br>),
+    keeping bold section titles like "Abstract:" and putting a blank line between paragraphs."""
+    if not isinstance(html, str) or not html.strip():
+        return ""
+
+    def render(node):
+        if isinstance(node, bs4.Comment):
+            return ""
+        if isinstance(node, bs4.NavigableString):
+            return escape(re.sub(r"\s+", " ", str(node)), quote=False)
+        inner = "".join(render(c) for c in node.children)
+        if node.name == "br":
+            return "<br>"
+        if node.name in ("strong", "b") or node.name in ("h1", "h2", "h3", "h4", "h5", "h6"):
+            inner = f"<b>{inner}</b>" if inner.strip() else inner
+        elif node.name in ("em", "i"):
+            inner = f"<i>{inner}</i>" if inner.strip() else inner
+        elif node.name == "a" and node.get("href"):
+            inner = f'<a href="{escape(node["href"])}">{inner}</a>'
+        if node.name == "li":
+            inner = "• " + inner
+        return f"{PARA}{inner}{PARA}" if node.name in BLOCK_TAGS else inner
+
+    out = render(bs4.BeautifulSoup(html, "html.parser"))
+    paras = (re.sub(r"^(\s|<br>)+|(\s|<br>)+$", "", p) for p in out.split(PARA))
+    return "<br><br>".join(p for p in paras if p)
+
+
 def parse_when(date_str, time_str):
     """'September 28, 2026' + '12:00 PM' -> timezone-aware datetime."""
     if not isinstance(date_str, str) or not isinstance(time_str, str) or not time_str.strip():
@@ -91,6 +126,7 @@ def process_event(row):
         "end": end.isoformat() if end else None,
         "location": html_to_text(row.get("event_location")),
         "abstract": html_to_text(row.get("event_abstract")),
+        "abstract_html": html_to_gcal(row.get("event_abstract")),
         "updated_at": row.get("updated_at") or "",
     }
 
@@ -140,9 +176,15 @@ def build_calendar(events):
             stamp = datetime.fromisoformat(ev["start"]).astimezone(TZ)
         e.add("dtstamp", stamp)
         e.add("location", ev["location"])
-        desc = "\n\n".join(x for x in [f"Speaker: {ev['speaker']}" if ev["speaker"] else "",
-                                         ev["abstract"],
-                                         "https://physics.ucsd.edu/events/seminars-colloquia"] if x)
+        # Google Calendar renders simple HTML in descriptions, so build the description
+        # as HTML: bold section titles, and a blank line (<br><br>) between paragraphs.
+        abstract = ev.get("abstract_html")
+        if not isinstance(abstract, str) or not abstract:
+            # Rows archived before abstract_html existed only have plain text.
+            abstract = escape(ev["abstract"], quote=False).replace("\n", "<br>")
+        desc = "<br><br>".join(x for x in [f"<b>Speaker:</b> {escape(ev['speaker'], quote=False)}" if ev["speaker"] else "",
+                                             abstract,
+                                             "https://physics.ucsd.edu/events/seminars-colloquia"] if x)
         e.add("description", desc)
         cal.add_component(e)
     cal.add_missing_timezones()   # embeds a VTIMEZONE block so every calendar app agrees
@@ -153,7 +195,7 @@ def main():
     raw = download_all()
     print(f"Downloaded {len(raw)} upcoming events")
     new = pd.DataFrame([process_event(r) for r in raw.to_dict("records")]) if len(raw) else \
-        pd.DataFrame(columns=["event_id", "title", "series", "speaker", "start", "end", "location", "abstract", "updated_at"])
+        pd.DataFrame(columns=["event_id", "title", "series", "speaker", "start", "end", "location", "abstract", "abstract_html", "updated_at"])
     events = merge_with_archive(new)
     events.to_csv(ARCHIVE, index=False)
     OUTPUT.write_bytes(build_calendar(events).to_ical())
