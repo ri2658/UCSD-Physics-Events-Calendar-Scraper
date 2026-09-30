@@ -111,14 +111,46 @@ DESCRIPTION:<b>Speaker:</b> Anto I. Lonappan (UCSD)<br><br><b>Abstract:</b
 LOCATION:Mayer Room 4322
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Condensed Matter Seminar — Yuhang Deng
+SUMMARY:[Condensed Matter Seminar] Tuning Quantum Materials with Extreme P
+ ressure and Magnetic Field — Yuhang Deng (Dept. of Physics\, UCSD)
 DTSTART;TZID=America/Los_Angeles:20261007T160000
 DTEND;TZID=America/Los_Angeles:20261007T170000
-DTSTAMP:20260920T070000Z
+DTSTAMP:20260930T070000Z
 UID:2772@physics.ucsd.edu
-DESCRIPTION:<b>Speaker:</b> Yuhang Deng<br><br><a href="https://physics.uc
- sd.edu/events/seminars-colloquia">https://physics.ucsd.edu/events/seminars
- -colloquia</a>
+DESCRIPTION:<b>Speaker:</b> Yuhang Deng (Dept. of Physics\, UCSD)<br><br>A
+ bstract: Correlated electron materials based on lanthanides\, actinides\, 
+ and transition metals host a rich landscape of emergent phenomena\, includ
+ ing unconventional superconductivity\, exotic magnetism\, heavy-fermion be
+ havior\, and nontrivial topological states. These phenomena emerge from th
+ e interplay among strong electronic correlations\, spin–orbit coupling\,
+  and competing energy scales\, and can be dramatically modified by externa
+ l parameters such as pressure\, magnetic field\, and chemical composition.
+ <br><br>In this talk\, I will discuss our efforts to uncover and control q
+ uantum phases in correlated materials under extreme conditions of high pre
+ ssure and high magnetic fields. Using diamond anvil cells\, which enable e
+ lectrical\, magnetic\, and optical measurements at high pressures\, togeth
+ er with complementary high-field techniques\, we investigate how these tun
+ ing parameters<br>reshape electronic\, magnetic\, and structural propertie
+ s. I will highlight three examples: pressure-induced metallization and sup
+ pression of a magnetically ordered conducting surface state in FeSi\; pres
+ sure-driven structural and valence evolution\, and new superconductivity i
+ n UTe 2 \; and the emergence and evolution of multiple superconducting sta
+ tes in U 1-x Th x Te 2 under high magnetic fields. Together\, these studie
+ s demonstrate how pressure\, magnetic field\, and chemical substitution ca
+ n tune the delicate balance among competing interactions in correlated ele
+ ctron systems\, providing new perspectives on the mechanisms underlying un
+ conventional superconductivity\, magnetism\, and topological quantum state
+ s.<br><br>Yuhang Deng received his Ph.D. in Physics from Washington Univer
+ sity in St. Louis in 2019. He subsequently joined Prof. M. Brian Maple’s
+  group at the University of California San Diego\, where he worked as a po
+ stdoctoral scholar and is currently an Assistant Project Scientist. His re
+ search focuses on the experimental study of quantum materials under extrem
+ e conditions\, particularly superconductivity and magnetism at high pressu
+ res and high magnetic fields. His broader research interests include topol
+ ogical and Kondo insulators\, unconventional superconductors\, and the app
+ lication of diamond nitrogen-vacancy (NV) centers to high-pressure physics
+ .<br><br><a href="https://physics.ucsd.edu/events/seminars-colloquia">http
+ s://physics.ucsd.edu/events/seminars-colloquia</a>
 LOCATION:Mayer 4322
 END:VEVENT
 END:VCALENDAR
