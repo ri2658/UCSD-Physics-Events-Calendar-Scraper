@@ -153,4 +153,40 @@ DESCRIPTION:<b>Speaker:</b> Yuhang Deng (Dept. of Physics\, UCSD)<br><br>A
  s://physics.ucsd.edu/events/seminars-colloquia</a>
 LOCATION:Mayer 4322
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Physics Colloquium] Modeling density variations in microtubule-ba
+ sed two-dimensional active nematics — Kevin  Mitchell (UC Merced)
+DTSTART;TZID=America/Los_Angeles:20261008T160000
+DTEND;TZID=America/Los_Angeles:20261008T170000
+DTSTAMP:20261002T070000Z
+UID:2816@physics.ucsd.edu
+DESCRIPTION:<b>Speaker:</b> Kevin  Mitchell (UC Merced)<br><br>Abstract: A
+  dense two-dimensional layer of aligned microtubules (MTs)\, powered by mo
+ lecular motors\, is a canonical laboratory model of active materials and a
+  synthetic analog of biological systems such as bacterial turbulence\, mit
+ otic spindles\, and morphogenesis. This material exhibits nematic ordering
+  and associated topological defects\, which display complex emergent dynam
+ ics\, including the creation and annihilation of defects and the braiding 
+ of defects around one another in a complicated chaotic dance. Despite its 
+ prominent role in research\, the MT-based active nematic material lacks a 
+ well established theoretical model that accurately captures the rich densi
+ ty variations prominently seen in experiments—--density variations that 
+ are\, in fact\, the experimental signature of the nematic structure itself
+ . The MT-system is typically modeled using two fields: the Q-tensor (encod
+ ing the order and orientation of the nematic phase) and the fluid velocity
+ \; critically\, the microtubule density is assumed to be constant. This tr
+ aditional model is adopted from classical Landau-de Gennes liquid crystal 
+ theory. In this talk\, we present a fundamentally different approach to mo
+ deling MT-based active nematics that explicitly incorporates density varia
+ tions\, producing simulations that strongly resemble experimental videos\,
+  including the characteristic striation patterns. It also reproduces impor
+ tant behavior of the system confined to a circular well—behavior seen ex
+ perimentally\, but not captured by current theory. In crafting our model\,
+  we present an alternative to Landau-de Gennes theory for the creation and
+  annihilation of topological defects that does not rely on the classic iso
+ tropic-nematic phase transition.<br><br><a href="https://physics.ucsd.edu/
+ events/seminars-colloquia">https://physics.ucsd.edu/events/seminars-colloq
+ uia</a>
+LOCATION:NSB Auditorium
+END:VEVENT
 END:VCALENDAR
