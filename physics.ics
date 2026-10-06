@@ -189,4 +189,28 @@ DESCRIPTION:<b>Speaker:</b> Kevin  Mitchell (UC Merced)<br><br>Abstract: A
  uia</a>
 LOCATION:NSB Auditorium
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Physics Colloquium] Superconductivity and magnetism in crystallin
+ e graphite allotropes — Andrea Young (UC Santa Barbara)
+DTSTART;TZID=America/Los_Angeles:20261105T160000
+DTEND;TZID=America/Los_Angeles:20261105T170000
+DTSTAMP:20261006T070000Z
+UID:2823@physics.ucsd.edu
+DESCRIPTION:<b>Speaker:</b> Andrea Young (UC Santa Barbara)<br><br>I will 
+ describe the physics of graphite crystals with rhombohedral stacking\, whe
+ re the competition between electron hopping within- and between- the graph
+ ene planes leads to a flat electronic dispersion and the crystallinity lea
+ ds to a near total absence of disorder. The high electronic density of sta
+ tes and Berry curvature—-both of which can be tuned by a perpendicular e
+ lectric field—lead to a dizzying variety of magnetic and superconducting
+  states\, often within the same device\, while the high experimental repro
+ ducibility enabled by the crystalline nature of these structurally simple 
+ systems allows us to investigate a variety of correlated electron phenomen
+ a. I will focus on our efforts to use scanning nanoscale magnetometry to p
+ robe the nature and origins of magnetism and unconventional superconductiv
+ ity\, as well as the fate of the correlated electron liquid at high temper
+ atures.<br><br><a href="https://physics.ucsd.edu/events/seminars-colloquia
+ ">https://physics.ucsd.edu/events/seminars-colloquia</a>
+LOCATION:NSB Auditorium
+END:VEVENT
 END:VCALENDAR
