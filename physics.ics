@@ -190,6 +190,31 @@ DESCRIPTION:<b>Speaker:</b> Kevin  Mitchell (UC Merced)<br><br>Abstract: A
 LOCATION:NSB Auditorium
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[Condensed Matter Seminar] Planckian Dynamics in Quantum Matter 
+ — Debanjan Chowdhury (Cornell University)
+DTSTART;TZID=America/Los_Angeles:20261014T160000
+DTEND;TZID=America/Los_Angeles:20261014T170000
+DTSTAMP:20261008T070000Z
+UID:2836@physics.ucsd.edu
+DESCRIPTION:<b>Speaker:</b> Debanjan Chowdhury (Cornell University)<br><br
+ >Abstract:<br>A long-standing puzzle in strongly correlated quantum matter
+  is the ubiquity of a Planckian timescale governing transport\, appearing 
+ across disparate materials and largely independent of microscopic details.
+  Despite extensive experimental evidence\, this phenomenon has proven noto
+ riously difficult to capture within conventional theoretical frameworks. I
+ n this colloquium\, I will first explain why achieving microscopic control
+  over Planckian dynamics is so challenging. I will then discuss a concrete
+  example of a correlated material in which Planckian behavior can be under
+ stood from first principles. Finally\, I will survey recent progress towar
+ d deriving rigorous Planckian bounds\, drawing on ideas from quantum infor
+ mation\, many-body physics\, and nonequilibrium statistical mechanics. Tog
+ ether\, these developments suggest that Planckian dynamics may arise from 
+ fundamental constraints on thermalization and information flow in quantum 
+ matter.<br><br><a href="https://physics.ucsd.edu/events/seminars-colloquia
+ ">https://physics.ucsd.edu/events/seminars-colloquia</a>
+LOCATION:Mayer Room 4322
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[Physics Colloquium] Superconductivity and magnetism in crystallin
  e graphite allotropes — Andrea Young (UC Santa Barbara)
 DTSTART;TZID=America/Los_Angeles:20261105T160000
