@@ -53,7 +53,7 @@ def download_all():
             break
         start += PAGE_SIZE
         time.sleep(1)                  # send requests slowly
-    return pd.DataFrame(rows)
+    return rows                        # raw dicts: nulls stay None (a DataFrame would turn them into NaN)
 
 
 # ---------------------------------------------------------------- 2. Clean
@@ -202,7 +202,7 @@ def build_calendar(events):
 def main():
     raw = download_all()
     print(f"Downloaded {len(raw)} upcoming events")
-    new = pd.DataFrame([process_event(r) for r in raw.to_dict("records")]) if len(raw) else \
+    new = pd.DataFrame([process_event(r) for r in raw]) if len(raw) else \
         pd.DataFrame(columns=["event_id", "title", "series", "speaker", "start", "end", "location", "abstract", "updated_at"])
     events = merge_with_archive(new)
     events.to_csv(ARCHIVE, index=False)

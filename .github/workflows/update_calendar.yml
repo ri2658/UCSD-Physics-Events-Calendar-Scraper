@@ -18,7 +18,8 @@ jobs:
         with:
           python-version: "3.12"
 
-      - run: pip install requests pandas beautifulsoup4 icalendar
+      # certifi 2026.10.18 dropped the emSign roots that physics.ucsd.edu chains to; unpin once the site changes CAs.
+      - run: pip install requests pandas beautifulsoup4 icalendar "certifi<2026.10.18"
 
       - run: python scrape_events.py
 
