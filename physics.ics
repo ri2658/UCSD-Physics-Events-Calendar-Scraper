@@ -111,14 +111,363 @@ DESCRIPTION:<b>Speaker:</b> Anto I. Lonappan (UCSD)<br><br><b>Abstract:</b
 LOCATION:Mayer Room 4322
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Condensed Matter Seminar — Yuhang Deng
+SUMMARY:[Condensed Matter Seminar] Tuning Quantum Materials with Extreme P
+ ressure and Magnetic Field — Yuhang Deng (Dept. of Physics\, UCSD)
 DTSTART;TZID=America/Los_Angeles:20261007T160000
 DTEND;TZID=America/Los_Angeles:20261007T170000
-DTSTAMP:20260920T070000Z
+DTSTAMP:20260930T070000Z
 UID:2772@physics.ucsd.edu
-DESCRIPTION:<b>Speaker:</b> Yuhang Deng<br><br><a href="https://physics.uc
- sd.edu/events/seminars-colloquia">https://physics.ucsd.edu/events/seminars
- -colloquia</a>
+DESCRIPTION:<b>Speaker:</b> Yuhang Deng (Dept. of Physics\, UCSD)<br><br>A
+ bstract: Correlated electron materials based on lanthanides\, actinides\, 
+ and transition metals host a rich landscape of emergent phenomena\, includ
+ ing unconventional superconductivity\, exotic magnetism\, heavy-fermion be
+ havior\, and nontrivial topological states. These phenomena emerge from th
+ e interplay among strong electronic correlations\, spin–orbit coupling\,
+  and competing energy scales\, and can be dramatically modified by externa
+ l parameters such as pressure\, magnetic field\, and chemical composition.
+ <br><br>In this talk\, I will discuss our efforts to uncover and control q
+ uantum phases in correlated materials under extreme conditions of high pre
+ ssure and high magnetic fields. Using diamond anvil cells\, which enable e
+ lectrical\, magnetic\, and optical measurements at high pressures\, togeth
+ er with complementary high-field techniques\, we investigate how these tun
+ ing parameters<br>reshape electronic\, magnetic\, and structural propertie
+ s. I will highlight three examples: pressure-induced metallization and sup
+ pression of a magnetically ordered conducting surface state in FeSi\; pres
+ sure-driven structural and valence evolution\, and new superconductivity i
+ n UTe 2 \; and the emergence and evolution of multiple superconducting sta
+ tes in U 1-x Th x Te 2 under high magnetic fields. Together\, these studie
+ s demonstrate how pressure\, magnetic field\, and chemical substitution ca
+ n tune the delicate balance among competing interactions in correlated ele
+ ctron systems\, providing new perspectives on the mechanisms underlying un
+ conventional superconductivity\, magnetism\, and topological quantum state
+ s.<br><br>Yuhang Deng received his Ph.D. in Physics from Washington Univer
+ sity in St. Louis in 2019. He subsequently joined Prof. M. Brian Maple’s
+  group at the University of California San Diego\, where he worked as a po
+ stdoctoral scholar and is currently an Assistant Project Scientist. His re
+ search focuses on the experimental study of quantum materials under extrem
+ e conditions\, particularly superconductivity and magnetism at high pressu
+ res and high magnetic fields. His broader research interests include topol
+ ogical and Kondo insulators\, unconventional superconductors\, and the app
+ lication of diamond nitrogen-vacancy (NV) centers to high-pressure physics
+ .<br><br><a href="https://physics.ucsd.edu/events/seminars-colloquia">http
+ s://physics.ucsd.edu/events/seminars-colloquia</a>
 LOCATION:Mayer 4322
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Physics Colloquium] Modeling density variations in microtubule-ba
+ sed two-dimensional active nematics — Kevin  Mitchell (UC Merced)
+DTSTART;TZID=America/Los_Angeles:20261008T160000
+DTEND;TZID=America/Los_Angeles:20261008T170000
+DTSTAMP:20261002T070000Z
+UID:2816@physics.ucsd.edu
+DESCRIPTION:<b>Speaker:</b> Kevin  Mitchell (UC Merced)<br><br>Abstract: A
+  dense two-dimensional layer of aligned microtubules (MTs)\, powered by mo
+ lecular motors\, is a canonical laboratory model of active materials and a
+  synthetic analog of biological systems such as bacterial turbulence\, mit
+ otic spindles\, and morphogenesis. This material exhibits nematic ordering
+  and associated topological defects\, which display complex emergent dynam
+ ics\, including the creation and annihilation of defects and the braiding 
+ of defects around one another in a complicated chaotic dance. Despite its 
+ prominent role in research\, the MT-based active nematic material lacks a 
+ well established theoretical model that accurately captures the rich densi
+ ty variations prominently seen in experiments—--density variations that 
+ are\, in fact\, the experimental signature of the nematic structure itself
+ . The MT-system is typically modeled using two fields: the Q-tensor (encod
+ ing the order and orientation of the nematic phase) and the fluid velocity
+ \; critically\, the microtubule density is assumed to be constant. This tr
+ aditional model is adopted from classical Landau-de Gennes liquid crystal 
+ theory. In this talk\, we present a fundamentally different approach to mo
+ deling MT-based active nematics that explicitly incorporates density varia
+ tions\, producing simulations that strongly resemble experimental videos\,
+  including the characteristic striation patterns. It also reproduces impor
+ tant behavior of the system confined to a circular well—behavior seen ex
+ perimentally\, but not captured by current theory. In crafting our model\,
+  we present an alternative to Landau-de Gennes theory for the creation and
+  annihilation of topological defects that does not rely on the classic iso
+ tropic-nematic phase transition.<br><br><a href="https://physics.ucsd.edu/
+ events/seminars-colloquia">https://physics.ucsd.edu/events/seminars-colloq
+ uia</a>
+LOCATION:NSB Auditorium
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[HEP Seminar] From Preons to Flavor: Testing Quark and Lepton Comp
+ ositeness — Amartya Sengupta (University of Buffalo)
+DTSTART;TZID=America/Los_Angeles:20261013T130000
+DTEND;TZID=America/Los_Angeles:20261013T140000
+DTSTAMP:20261012T070000Z
+UID:2847@physics.ucsd.edu
+DESCRIPTION:<b>Speaker:</b> Amartya Sengupta (University of Buffalo)<br><b
+ r><b>Abstract:</b><br>A composite origin of quarks and leptons could conne
+ ct the observed fermion masses and mixing angles to new strong dynamics. I
+ n this talk\, we study a renormalizable preon model based on a confining c
+ hiral SU(15) gauge theory\, in which Standard Model fermions—and possibl
+ y the Higgs—emerge as bound states of more fundamental constituents. We 
+ show that a simple hierarchy in two flavor-breaking couplings can reproduc
+ e all six quark masses\, the charged-lepton masses\, and the CKM matrix\, 
+ with nonperturbative parameters of order unity. The same couplings induce 
+ flavor- and CP-violating effects\, allowing low-energy measurements to pro
+ be the model even when the compositeness scale lies beyond collider reach.
+  We discuss the constraints from the electron electric dipole moment\, neu
+ tral-meson mixing\, and charged-lepton flavor violation\, and compare thei
+ r sensitivity with that of proton-decay searches.<br><br><a href="https://
+ physics.ucsd.edu/events/seminars-colloquia">https://physics.ucsd.edu/event
+ s/seminars-colloquia</a>
+LOCATION:MHA 5623
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Condensed Matter Seminar] Planckian Dynamics in Quantum Matter 
+ — Debanjan Chowdhury (Cornell University)
+DTSTART;TZID=America/Los_Angeles:20261014T160000
+DTEND;TZID=America/Los_Angeles:20261014T170000
+DTSTAMP:20261008T070000Z
+UID:2836@physics.ucsd.edu
+DESCRIPTION:<b>Speaker:</b> Debanjan Chowdhury (Cornell University)<br><br
+ >Abstract:<br>A long-standing puzzle in strongly correlated quantum matter
+  is the ubiquity of a Planckian timescale governing transport\, appearing 
+ across disparate materials and largely independent of microscopic details.
+  Despite extensive experimental evidence\, this phenomenon has proven noto
+ riously difficult to capture within conventional theoretical frameworks. I
+ n this colloquium\, I will first explain why achieving microscopic control
+  over Planckian dynamics is so challenging. I will then discuss a concrete
+  example of a correlated material in which Planckian behavior can be under
+ stood from first principles. Finally\, I will survey recent progress towar
+ d deriving rigorous Planckian bounds\, drawing on ideas from quantum infor
+ mation\, many-body physics\, and nonequilibrium statistical mechanics. Tog
+ ether\, these developments suggest that Planckian dynamics may arise from 
+ fundamental constraints on thermalization and information flow in quantum 
+ matter.<br><br><a href="https://physics.ucsd.edu/events/seminars-colloquia
+ ">https://physics.ucsd.edu/events/seminars-colloquia</a>
+LOCATION:Mayer Room 4322
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Community Event] Tea Time — Physics Graduate Student Council
+DTSTART;TZID=America/Los_Angeles:20261016T113000
+DTEND;TZID=America/Los_Angeles:20261016T123000
+DTSTAMP:20261012T070000Z
+UID:2845@physics.ucsd.edu
+DESCRIPTION:<b>Speaker:</b> Physics Graduate Student Council<br><br>Please
+  come and join your colleagues this Friday (10/9) at 11:30AM for free tea
+ \, coffee\, cookies\, and other snacks. We will meet in the Student Succes
+ s Center area on the first floor of Mayer Hall (next to the lawn).<br><br>
+ Tea Time now has a <a href="https://sites.ucsd.edu/physics-tea-time/">dedi
+ cated website</a> with a link for donations. If you enjoy Tea Time\, pleas
+ e consider donating to keep our program running smoothly.<br><br><b>Tea Ti
+ me FAQ</b><br><br>Q: What is Tea Time?<br><br>A: Tea Time is an opportunit
+ y for members of the UCSD physics and astro communities to meet for free c
+ offee\, tea\, and snacks<br><br>Q: Who is invited to Tea Time?<br><br>A: A
+ ll members of the UCSD physics and astro communities are welcome (ie staff
+ \, faculty\, researchers\, graduate students\, etc)<br><br>Q: How long is 
+ Tea Time?<br><br>A: Tea Time is scheduled for 1hr<br><br><a href="https://
+ physics.ucsd.edu/events/seminars-colloquia">https://physics.ucsd.edu/event
+ s/seminars-colloquia</a>
+LOCATION:Mayer Hall Student Success Center
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Community Event] Tea Time — Physics Graduate Student Council
+DTSTART;TZID=America/Los_Angeles:20261023T113000
+DTEND;TZID=America/Los_Angeles:20261023T123000
+DTSTAMP:20261012T070000Z
+UID:2848@physics.ucsd.edu
+DESCRIPTION:<b>Speaker:</b> Physics Graduate Student Council<br><br>Please
+  come and join your colleagues this Friday (10/9) at 11:30AM for free tea
+ \, coffee\, cookies\, and other snacks. We will meet in the Student Succes
+ s Center area on the first floor of Mayer Hall (next to the lawn).<br><br>
+ Tea Time now has a <a href="https://sites.ucsd.edu/physics-tea-time/">dedi
+ cated website</a> with a link for donations. If you enjoy Tea Time\, pleas
+ e consider donating to keep our program running smoothly.<br><br><b>Tea Ti
+ me FAQ</b><br><br>Q: What is Tea Time?<br><br>A: Tea Time is an opportunit
+ y for members of the UCSD physics and astro communities to meet for free c
+ offee\, tea\, and snacks<br><br>Q: Who is invited to Tea Time?<br><br>A: A
+ ll members of the UCSD physics and astro communities are welcome (ie staff
+ \, faculty\, researchers\, graduate students\, etc)<br><br>Q: How long is 
+ Tea Time?<br><br>A: Tea Time is scheduled for 1hr<br><br><a href="https://
+ physics.ucsd.edu/events/seminars-colloquia">https://physics.ucsd.edu/event
+ s/seminars-colloquia</a>
+LOCATION:Mayer Hall Student Success Center
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Community Event] Tea Time — Physics Graduate Student Council
+DTSTART;TZID=America/Los_Angeles:20261030T113000
+DTEND;TZID=America/Los_Angeles:20261030T123000
+DTSTAMP:20261012T070000Z
+UID:2849@physics.ucsd.edu
+DESCRIPTION:<b>Speaker:</b> Physics Graduate Student Council<br><br>Please
+  come and join your colleagues this Friday (10/9) at 11:30AM for free tea
+ \, coffee\, cookies\, and other snacks. We will meet in the Student Succes
+ s Center area on the first floor of Mayer Hall (next to the lawn).<br><br>
+ Tea Time now has a <a href="https://sites.ucsd.edu/physics-tea-time/">dedi
+ cated website</a> with a link for donations. If you enjoy Tea Time\, pleas
+ e consider donating to keep our program running smoothly.<br><br><b>Tea Ti
+ me FAQ</b><br><br>Q: What is Tea Time?<br><br>A: Tea Time is an opportunit
+ y for members of the UCSD physics and astro communities to meet for free c
+ offee\, tea\, and snacks<br><br>Q: Who is invited to Tea Time?<br><br>A: A
+ ll members of the UCSD physics and astro communities are welcome (ie staff
+ \, faculty\, researchers\, graduate students\, etc)<br><br>Q: How long is 
+ Tea Time?<br><br>A: Tea Time is scheduled for 1hr<br><br><a href="https://
+ physics.ucsd.edu/events/seminars-colloquia">https://physics.ucsd.edu/event
+ s/seminars-colloquia</a>
+LOCATION:Mayer Hall Student Success Center
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Physics Colloquium] Superconductivity and magnetism in crystallin
+ e graphite allotropes — Andrea Young (UC Santa Barbara)
+DTSTART;TZID=America/Los_Angeles:20261105T160000
+DTEND;TZID=America/Los_Angeles:20261105T170000
+DTSTAMP:20261006T070000Z
+UID:2823@physics.ucsd.edu
+DESCRIPTION:<b>Speaker:</b> Andrea Young (UC Santa Barbara)<br><br>I will 
+ describe the physics of graphite crystals with rhombohedral stacking\, whe
+ re the competition between electron hopping within- and between- the graph
+ ene planes leads to a flat electronic dispersion and the crystallinity lea
+ ds to a near total absence of disorder. The high electronic density of sta
+ tes and Berry curvature—-both of which can be tuned by a perpendicular e
+ lectric field—lead to a dizzying variety of magnetic and superconducting
+  states\, often within the same device\, while the high experimental repro
+ ducibility enabled by the crystalline nature of these structurally simple 
+ systems allows us to investigate a variety of correlated electron phenomen
+ a. I will focus on our efforts to use scanning nanoscale magnetometry to p
+ robe the nature and origins of magnetism and unconventional superconductiv
+ ity\, as well as the fate of the correlated electron liquid at high temper
+ atures.<br><br><a href="https://physics.ucsd.edu/events/seminars-colloquia
+ ">https://physics.ucsd.edu/events/seminars-colloquia</a>
+LOCATION:NSB Auditorium
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Community Event] Tea Time — Physics Graduate Student Council
+DTSTART;TZID=America/Los_Angeles:20261106T113000
+DTEND;TZID=America/Los_Angeles:20261106T123000
+DTSTAMP:20261012T070000Z
+UID:2850@physics.ucsd.edu
+DESCRIPTION:<b>Speaker:</b> Physics Graduate Student Council<br><br>Please
+  come and join your colleagues this Friday (10/9) at 11:30AM for free tea
+ \, coffee\, cookies\, and other snacks. We will meet in the Student Succes
+ s Center area on the first floor of Mayer Hall (next to the lawn).<br><br>
+ Tea Time now has a <a href="https://sites.ucsd.edu/physics-tea-time/">dedi
+ cated website</a> with a link for donations. If you enjoy Tea Time\, pleas
+ e consider donating to keep our program running smoothly.<br><br><b>Tea Ti
+ me FAQ</b><br><br>Q: What is Tea Time?<br><br>A: Tea Time is an opportunit
+ y for members of the UCSD physics and astro communities to meet for free c
+ offee\, tea\, and snacks<br><br>Q: Who is invited to Tea Time?<br><br>A: A
+ ll members of the UCSD physics and astro communities are welcome (ie staff
+ \, faculty\, researchers\, graduate students\, etc)<br><br>Q: How long is 
+ Tea Time?<br><br>A: Tea Time is scheduled for 1hr<br><br><a href="https://
+ physics.ucsd.edu/events/seminars-colloquia">https://physics.ucsd.edu/event
+ s/seminars-colloquia</a>
+LOCATION:Mayer Hall Student Success Center
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Community Event] Tea Time — Physics Graduate Student Council
+DTSTART;TZID=America/Los_Angeles:20261113T113000
+DTEND;TZID=America/Los_Angeles:20261113T123000
+DTSTAMP:20261012T070000Z
+UID:2851@physics.ucsd.edu
+DESCRIPTION:<b>Speaker:</b> Physics Graduate Student Council<br><br>Please
+  come and join your colleagues this Friday (10/9) at 11:30AM for free tea
+ \, coffee\, cookies\, and other snacks. We will meet in the Student Succes
+ s Center area on the first floor of Mayer Hall (next to the lawn).<br><br>
+ Tea Time now has a <a href="https://sites.ucsd.edu/physics-tea-time/">dedi
+ cated website</a> with a link for donations. If you enjoy Tea Time\, pleas
+ e consider donating to keep our program running smoothly.<br><br><b>Tea Ti
+ me FAQ</b><br><br>Q: What is Tea Time?<br><br>A: Tea Time is an opportunit
+ y for members of the UCSD physics and astro communities to meet for free c
+ offee\, tea\, and snacks<br><br>Q: Who is invited to Tea Time?<br><br>A: A
+ ll members of the UCSD physics and astro communities are welcome (ie staff
+ \, faculty\, researchers\, graduate students\, etc)<br><br>Q: How long is 
+ Tea Time?<br><br>A: Tea Time is scheduled for 1hr<br><br><a href="https://
+ physics.ucsd.edu/events/seminars-colloquia">https://physics.ucsd.edu/event
+ s/seminars-colloquia</a>
+LOCATION:Mayer Hall Student Success Center
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Community Event] Tea Time — Physics Graduate Student Council
+DTSTART;TZID=America/Los_Angeles:20261120T113000
+DTEND;TZID=America/Los_Angeles:20261120T123000
+DTSTAMP:20261012T070000Z
+UID:2852@physics.ucsd.edu
+DESCRIPTION:<b>Speaker:</b> Physics Graduate Student Council<br><br>Please
+  come and join your colleagues this Friday (10/9) at 11:30AM for free tea
+ \, coffee\, cookies\, and other snacks. We will meet in the Student Succes
+ s Center area on the first floor of Mayer Hall (next to the lawn).<br><br>
+ Tea Time now has a <a href="https://sites.ucsd.edu/physics-tea-time/">dedi
+ cated website</a> with a link for donations. If you enjoy Tea Time\, pleas
+ e consider donating to keep our program running smoothly.<br><br><b>Tea Ti
+ me FAQ</b><br><br>Q: What is Tea Time?<br><br>A: Tea Time is an opportunit
+ y for members of the UCSD physics and astro communities to meet for free c
+ offee\, tea\, and snacks<br><br>Q: Who is invited to Tea Time?<br><br>A: A
+ ll members of the UCSD physics and astro communities are welcome (ie staff
+ \, faculty\, researchers\, graduate students\, etc)<br><br>Q: How long is 
+ Tea Time?<br><br>A: Tea Time is scheduled for 1hr<br><br><a href="https://
+ physics.ucsd.edu/events/seminars-colloquia">https://physics.ucsd.edu/event
+ s/seminars-colloquia</a>
+LOCATION:Mayer Hall Student Success Center
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Community Event] Tea Time — Physics Graduate Student Council
+DTSTART;TZID=America/Los_Angeles:20261127T113000
+DTEND;TZID=America/Los_Angeles:20261127T123000
+DTSTAMP:20261012T070000Z
+UID:2853@physics.ucsd.edu
+DESCRIPTION:<b>Speaker:</b> Physics Graduate Student Council<br><br>Please
+  come and join your colleagues this Friday (10/9) at 11:30AM for free tea
+ \, coffee\, cookies\, and other snacks. We will meet in the Student Succes
+ s Center area on the first floor of Mayer Hall (next to the lawn).<br><br>
+ Tea Time now has a <a href="https://sites.ucsd.edu/physics-tea-time/">dedi
+ cated website</a> with a link for donations. If you enjoy Tea Time\, pleas
+ e consider donating to keep our program running smoothly.<br><br><b>Tea Ti
+ me FAQ</b><br><br>Q: What is Tea Time?<br><br>A: Tea Time is an opportunit
+ y for members of the UCSD physics and astro communities to meet for free c
+ offee\, tea\, and snacks<br><br>Q: Who is invited to Tea Time?<br><br>A: A
+ ll members of the UCSD physics and astro communities are welcome (ie staff
+ \, faculty\, researchers\, graduate students\, etc)<br><br>Q: How long is 
+ Tea Time?<br><br>A: Tea Time is scheduled for 1hr<br><br><a href="https://
+ physics.ucsd.edu/events/seminars-colloquia">https://physics.ucsd.edu/event
+ s/seminars-colloquia</a>
+LOCATION:Mayer Hall Student Success Center
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Community Event] Tea Time — Physics Graduate Student Council
+DTSTART;TZID=America/Los_Angeles:20261204T113000
+DTEND;TZID=America/Los_Angeles:20261204T123000
+DTSTAMP:20261012T070000Z
+UID:2854@physics.ucsd.edu
+DESCRIPTION:<b>Speaker:</b> Physics Graduate Student Council<br><br>Please
+  come and join your colleagues this Friday (10/9) at 11:30AM for free tea
+ \, coffee\, cookies\, and other snacks. We will meet in the Student Succes
+ s Center area on the first floor of Mayer Hall (next to the lawn).<br><br>
+ Tea Time now has a <a href="https://sites.ucsd.edu/physics-tea-time/">dedi
+ cated website</a> with a link for donations. If you enjoy Tea Time\, pleas
+ e consider donating to keep our program running smoothly.<br><br><b>Tea Ti
+ me FAQ</b><br><br>Q: What is Tea Time?<br><br>A: Tea Time is an opportunit
+ y for members of the UCSD physics and astro communities to meet for free c
+ offee\, tea\, and snacks<br><br>Q: Who is invited to Tea Time?<br><br>A: A
+ ll members of the UCSD physics and astro communities are welcome (ie staff
+ \, faculty\, researchers\, graduate students\, etc)<br><br>Q: How long is 
+ Tea Time?<br><br>A: Tea Time is scheduled for 1hr<br><br><a href="https://
+ physics.ucsd.edu/events/seminars-colloquia">https://physics.ucsd.edu/event
+ s/seminars-colloquia</a>
+LOCATION:Mayer Hall Student Success Center
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Community Event] Tea Time — Physics Graduate Student Council
+DTSTART;TZID=America/Los_Angeles:20261211T113000
+DTEND;TZID=America/Los_Angeles:20261211T123000
+DTSTAMP:20261012T070000Z
+UID:2855@physics.ucsd.edu
+DESCRIPTION:<b>Speaker:</b> Physics Graduate Student Council<br><br>Please
+  come and join your colleagues this Friday (10/9) at 11:30AM for free tea
+ \, coffee\, cookies\, and other snacks. We will meet in the Student Succes
+ s Center area on the first floor of Mayer Hall (next to the lawn).<br><br>
+ Tea Time now has a <a href="https://sites.ucsd.edu/physics-tea-time/">dedi
+ cated website</a> with a link for donations. If you enjoy Tea Time\, pleas
+ e consider donating to keep our program running smoothly.<br><br><b>Tea Ti
+ me FAQ</b><br><br>Q: What is Tea Time?<br><br>A: Tea Time is an opportunit
+ y for members of the UCSD physics and astro communities to meet for free c
+ offee\, tea\, and snacks<br><br>Q: Who is invited to Tea Time?<br><br>A: A
+ ll members of the UCSD physics and astro communities are welcome (ie staff
+ \, faculty\, researchers\, graduate students\, etc)<br><br>Q: How long is 
+ Tea Time?<br><br>A: Tea Time is scheduled for 1hr<br><br><a href="https://
+ physics.ucsd.edu/events/seminars-colloquia">https://physics.ucsd.edu/event
+ s/seminars-colloquia</a>
+LOCATION:Mayer Hall Student Success Center
 END:VEVENT
 END:VCALENDAR
