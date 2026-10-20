@@ -263,6 +263,77 @@ DESCRIPTION:<b>Speaker:</b> Physics Graduate Student Council<br><br>Please
 LOCATION:Mayer Hall Student Success Center
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[Undergraduate Events] Planning for a Minor — Physics Undergradu
+ ate Advising
+DTSTART;TZID=America/Los_Angeles:20261020T100000
+DTEND;TZID=America/Los_Angeles:20261020T110000
+DTSTAMP:20261020T070000Z
+UID:2865@physics.ucsd.edu
+DESCRIPTION:<b>Speaker:</b> Physics Undergraduate Advising<br><br><a href=
+ "https://physics.ucsd.edu/students/undergraduate/events">More information 
+ and other undergraduate advising events.</a><br><br><a href="https://physi
+ cs.ucsd.edu/events/seminars-colloquia">https://physics.ucsd.edu/events/sem
+ inars-colloquia</a>
+LOCATION:Mayer 5301
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[HEP Seminar] The Dark Dimension\, Revisited — Vincent Lee (UC B
+ erkeley / N3AS)
+DTSTART;TZID=America/Los_Angeles:20261020T130000
+DTEND;TZID=America/Los_Angeles:20261020T140000
+DTSTAMP:20261013T070000Z
+UID:2861@physics.ucsd.edu
+DESCRIPTION:<b>Speaker:</b> Vincent Lee (UC Berkeley / N3AS)<br><br>Abstra
+ ct: Motivated by the swampland program\, it has been proposed that a tower
+  of massive Kaluza-Klein (KK) gravitons from a compactified flat extra dim
+ ension can be dark matter\, with the heavier modes constantly cascading to
+  lighter ones. The phenomenology crucially depends on the rate at which a 
+ massive KK mode decays to lighter modes. We show that\, up to mild assumpt
+ ions on the UV theory\, the decay rate is suppressed by a factor of (<i>q<
+ /i>/<i>m</i>)^4 compared to the one commonly used in the literature\, wher
+ e <i>q</i> is the momentum of the decay products and <i>m</i> is the mass 
+ of the decaying KK mode. This suggests that the proposed scenario is ruled
+  out by CMB observations by many orders of magnitude. Remarkably\, the sam
+ e suppression opens up a vastly different parameter space in which KK grav
+ itons from a strongly warped extra dimension (e.g. a Randall-Sundrum setup
+ ) are a viable dark matter candidate\, either as the cascading gravitons t
+ hemselves or as a stable component of the tower. We discuss the correspond
+ ing phenomenology\, and prospects in detecting such dark matter with astro
+ physical observations.<br><br><a href="https://physics.ucsd.edu/events/sem
+ inars-colloquia">https://physics.ucsd.edu/events/seminars-colloquia</a>
+LOCATION:MHA 5623
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Undergraduate Events] Resume and Cover Letter — Physics Undergr
+ aduate Advising
+DTSTART;TZID=America/Los_Angeles:20261021T130000
+DTEND;TZID=America/Los_Angeles:20261021T140000
+DTSTAMP:20261020T070000Z
+UID:2866@physics.ucsd.edu
+DESCRIPTION:<b>Speaker:</b> Physics Undergraduate Advising<br><br><a href=
+ "https://ucsd.joinhandshake.com/events/1974317/">Register here!</a><br><br
+ ><a href="https://physics.ucsd.edu/students/undergraduate/events">More inf
+ ormation and other undergraduate advising events.</a><br><br><a href="http
+ s://physics.ucsd.edu/events/seminars-colloquia">https://physics.ucsd.edu/e
+ vents/seminars-colloquia</a>
+LOCATION:Career Center Horizon Room
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Undergraduate Events] Internship/Job Search Strategies (REMOTE) 
+ — Physics Undergraduate Advising
+DTSTART;TZID=America/Los_Angeles:20261022T170000
+DTEND;TZID=America/Los_Angeles:20261022T180000
+DTSTAMP:20261020T070000Z
+UID:2869@physics.ucsd.edu
+DESCRIPTION:<b>Speaker:</b> Physics Undergraduate Advising<br><br><a href=
+ "https://ucsd.joinhandshake.com/events/1974355/">Register here!</a><br><br
+ ><a href="https://physics.ucsd.edu/students/undergraduate/events">More inf
+ ormation and other undergraduate advising events.</a><br><br><a href="http
+ s://physics.ucsd.edu/events/seminars-colloquia">https://physics.ucsd.edu/e
+ vents/seminars-colloquia</a>
+LOCATION:ZOOM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[Community Event] Tea Time — Physics Graduate Student Council
 DTSTART;TZID=America/Los_Angeles:20261023T113000
 DTEND;TZID=America/Los_Angeles:20261023T123000
@@ -286,6 +357,35 @@ DESCRIPTION:<b>Speaker:</b> Physics Graduate Student Council<br><br>Please
 LOCATION:Mayer Hall Student Success Center
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[Undergraduate Events] Interviewing Tips & Tricks — Physics Unde
+ rgraduate Advising
+DTSTART;TZID=America/Los_Angeles:20261028T130000
+DTEND;TZID=America/Los_Angeles:20261028T140000
+DTSTAMP:20261020T070000Z
+UID:2870@physics.ucsd.edu
+DESCRIPTION:<b>Speaker:</b> Physics Undergraduate Advising<br><br><a href=
+ "https://ucsd.joinhandshake.com/events/1974341/">Register here!</a><br><br
+ ><a href="https://physics.ucsd.edu/students/undergraduate/events">More inf
+ ormation and other undergraduate advising events.</a><br><br><a href="http
+ s://physics.ucsd.edu/events/seminars-colloquia">https://physics.ucsd.edu/e
+ vents/seminars-colloquia</a>
+LOCATION:Career Center Horizon Room
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Undergraduate Events] Careers for PHYS Majors — Physics Undergr
+ aduate Advising
+DTSTART;TZID=America/Los_Angeles:20261029T140000
+DTEND;TZID=America/Los_Angeles:20261029T150000
+DTSTAMP:20261020T070000Z
+UID:2871@physics.ucsd.edu
+DESCRIPTION:<b>Speaker:</b> Physics Undergraduate Advising<br><br><a href=
+ "https://physics.ucsd.edu/students/undergraduate/events">More information 
+ and other undergraduate advising events.</a><br><br><a href="https://physi
+ cs.ucsd.edu/events/seminars-colloquia">https://physics.ucsd.edu/events/sem
+ inars-colloquia</a>
+LOCATION:Mayer 5301
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[Community Event] Tea Time — Physics Graduate Student Council
 DTSTART;TZID=America/Los_Angeles:20261030T113000
 DTEND;TZID=America/Los_Angeles:20261030T123000
@@ -307,6 +407,77 @@ DESCRIPTION:<b>Speaker:</b> Physics Graduate Student Council<br><br>Please
  physics.ucsd.edu/events/seminars-colloquia">https://physics.ucsd.edu/event
  s/seminars-colloquia</a>
 LOCATION:Mayer Hall Student Success Center
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Study Strategies (In the era of AI) Workshop — Gurleen Bal
+DTSTART;TZID=America/Los_Angeles:20261102T130000
+DTEND;TZID=America/Los_Angeles:20261102T140000
+DTSTAMP:20261012T070000Z
+UID:2857@physics.ucsd.edu
+DESCRIPTION:<b>Speaker:</b> Gurleen Bal<br><br><a href="https://physics.uc
+ sd.edu/events/seminars-colloquia">https://physics.ucsd.edu/events/seminars
+ -colloquia</a>
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[HEP Seminar] A Witten effect for global monopoles — Pablo Quíl
+ ez Lasanta
+DTSTART;TZID=America/Los_Angeles:20261103T130000
+DTEND;TZID=America/Los_Angeles:20261103T140000
+DTSTAMP:20261016T070000Z
+UID:2864@physics.ucsd.edu
+DESCRIPTION:<b>Speaker:</b> Pablo Quílez Lasanta<br><br>Abstract:<br><br>
+ Global monopoles can carry electric charge even when the scalar fields tha
+ t form them are neutral. I will show how an interaction usually discarded 
+ as a total derivative produces a Witten effect for these global defects\, 
+ giving them an electric charge proportional to their winding number. I wil
+ l explain its origin and illustrate the mechanism in a simple UV completio
+ n.<br><br>Based on arXiv:2610.14168 [hep-ph]<br><br>Bio:<br>Pablo Quílez 
+ Lasanta received his PhD from the Universidad Autónoma de Madrid and the 
+ Instituto de Física Teórica (IFT)\, followed by postdoctoral positions a
+ t DESY (Hamburg) and UC San Diego. He is currently a Marie Skłodowska-Cur
+ ie Fellow at CERN\, and will join the University of Barcelona next year on
+  a tenure-track position. His research focuses on axions and axion-like pa
+ rticles\, effective field theories and Hilbert series\, and more recently 
+ on formal aspects of partial-wave unitarity and topological defects.<br><b
+ r><a href="https://physics.ucsd.edu/events/seminars-colloquia">https://phy
+ sics.ucsd.edu/events/seminars-colloquia</a>
+LOCATION:MYR-A 5623
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Undergraduate Events] Internship/Job Search Strategies — Physic
+ s Undergraduate Advising
+DTSTART;TZID=America/Los_Angeles:20261104T130000
+DTEND;TZID=America/Los_Angeles:20261104T140000
+DTSTAMP:20261020T070000Z
+UID:2872@physics.ucsd.edu
+DESCRIPTION:<b>Speaker:</b> Physics Undergraduate Advising<br><br><a href=
+ "https://ucsd.joinhandshake.com/events/1974328/">Register here!</a><br><br
+ ><a href="https://physics.ucsd.edu/students/undergraduate/events">More inf
+ ormation and other undergraduate advising events.</a><br><br><a href="http
+ s://physics.ucsd.edu/events/seminars-colloquia">https://physics.ucsd.edu/e
+ vents/seminars-colloquia</a>
+LOCATION:Career Center Horizon Room
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Graduate Application Workshop (Q&A\, letters\, personal statements
+ ) — Mattia Serra
+DTSTART;TZID=America/Los_Angeles:20261105T120000
+DTEND;TZID=America/Los_Angeles:20261105T130000
+DTSTAMP:20261012T070000Z
+UID:2858@physics.ucsd.edu
+DESCRIPTION:<b>Speaker:</b> Mattia Serra<br><br><a href="https://physics.u
+ csd.edu/events/seminars-colloquia">https://physics.ucsd.edu/events/seminar
+ s-colloquia</a>
+LOCATION:Are you ready to take the next step in your academic journey? Joi
+ n us for an interactive workshop focused on helping you prepare for gradua
+ te school applications.\nThis session will cover key components of an effe
+ ctive personal statement\, strategies for highlighting your experiences an
+ d goals\, and tips for standing out to admissions committees. Whether you'
+ re just starting your application or polishing your final draft\, this wor
+ kshop will provide personalized feedback and practical insights to help yo
+ u succeed.\nDon't miss this opportunity to enhance your application and ma
+ ke your application shine!
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[Physics Colloquium] Superconductivity and magnetism in crystallin
@@ -333,6 +504,35 @@ DESCRIPTION:<b>Speaker:</b> Andrea Young (UC Santa Barbara)<br><br>I will
 LOCATION:NSB Auditorium
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[Undergraduate Events] Resume and Cover Letter (REMOTE) — Physic
+ s Undergraduate Advising
+DTSTART;TZID=America/Los_Angeles:20261105T170000
+DTEND;TZID=America/Los_Angeles:20261105T180000
+DTSTAMP:20261020T070000Z
+UID:2873@physics.ucsd.edu
+DESCRIPTION:<b>Speaker:</b> Physics Undergraduate Advising<br><br><a href=
+ "https://ucsd.joinhandshake.com/events/1974359/">Register here!</a><br><br
+ ><a href="https://physics.ucsd.edu/students/undergraduate/events">More inf
+ ormation and other undergraduate advising events.</a><br><br><a href="http
+ s://physics.ucsd.edu/events/seminars-colloquia">https://physics.ucsd.edu/e
+ vents/seminars-colloquia</a>
+LOCATION:ZOOM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Undergraduate Events] Personalizing Your Academic Plan — Physic
+ s Undergraduate Advising
+DTSTART;TZID=America/Los_Angeles:20261106T100000
+DTEND;TZID=America/Los_Angeles:20261106T110000
+DTSTAMP:20261020T070000Z
+UID:2874@physics.ucsd.edu
+DESCRIPTION:<b>Speaker:</b> Physics Undergraduate Advising<br><br><a href=
+ "https://physics.ucsd.edu/students/undergraduate/events">More information 
+ and other undergraduate advising events.</a><br><br><a href="https://physi
+ cs.ucsd.edu/events/seminars-colloquia">https://physics.ucsd.edu/events/sem
+ inars-colloquia</a>
+LOCATION:Mayer 5301
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[Community Event] Tea Time — Physics Graduate Student Council
 DTSTART;TZID=America/Los_Angeles:20261106T113000
 DTEND;TZID=America/Los_Angeles:20261106T123000
@@ -356,6 +556,20 @@ DESCRIPTION:<b>Speaker:</b> Physics Graduate Student Council<br><br>Please
 LOCATION:Mayer Hall Student Success Center
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[Undergraduate Events] Planning for a Double Major — Physics Und
+ ergraduate Advising
+DTSTART;TZID=America/Los_Angeles:20261112T140000
+DTEND;TZID=America/Los_Angeles:20261112T150000
+DTSTAMP:20261020T070000Z
+UID:2875@physics.ucsd.edu
+DESCRIPTION:<b>Speaker:</b> Physics Undergraduate Advising<br><br><a href=
+ "https://physics.ucsd.edu/students/undergraduate/events">More information 
+ and other undergraduate advising events.</a><br><br><a href="https://physi
+ cs.ucsd.edu/events/seminars-colloquia">https://physics.ucsd.edu/events/sem
+ inars-colloquia</a>
+LOCATION:Mayer 5301
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[Community Event] Tea Time — Physics Graduate Student Council
 DTSTART;TZID=America/Los_Angeles:20261113T113000
 DTEND;TZID=America/Los_Angeles:20261113T123000
@@ -377,6 +591,33 @@ DESCRIPTION:<b>Speaker:</b> Physics Graduate Student Council<br><br>Please
  physics.ucsd.edu/events/seminars-colloquia">https://physics.ucsd.edu/event
  s/seminars-colloquia</a>
 LOCATION:Mayer Hall Student Success Center
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Getting Started with Research — Faculty Advising Committee
+DTSTART;TZID=America/Los_Angeles:20261119T120000
+DTEND;TZID=America/Los_Angeles:20261119T130000
+DTSTAMP:20261012T070000Z
+UID:2859@physics.ucsd.edu
+DESCRIPTION:<b>Speaker:</b> Faculty Advising Committee<br><br>🚀 Take yo
+ ur academic journey to the next level! 'Getting Started with Research' wor
+ kshop will guide you on how to connect with faculty and explore research o
+ pportunities<br><br><a href="https://physics.ucsd.edu/events/seminars-coll
+ oquia">https://physics.ucsd.edu/events/seminars-colloquia</a>
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Undergraduate Events] Planning for a Minor — Physics Undergradu
+ ate Advising
+DTSTART;TZID=America/Los_Angeles:20261120T100000
+DTEND;TZID=America/Los_Angeles:20261120T110000
+DTSTAMP:20261020T070000Z
+UID:2876@physics.ucsd.edu
+DESCRIPTION:<b>Speaker:</b> Physics Undergraduate Advising<br><br><a href=
+ "https://physics.ucsd.edu/students/undergraduate/events">More information 
+ and other undergraduate advising events.</a><br><br><a href="https://physi
+ cs.ucsd.edu/events/seminars-colloquia">https://physics.ucsd.edu/events/sem
+ inars-colloquia</a>
+LOCATION:Mayer 5301
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[Community Event] Tea Time — Physics Graduate Student Council
@@ -425,6 +666,20 @@ DESCRIPTION:<b>Speaker:</b> Physics Graduate Student Council<br><br>Please
 LOCATION:Mayer Hall Student Success Center
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[Undergraduate Events] Careers for PHYS Majors — Physics Undergr
+ aduate Advising
+DTSTART;TZID=America/Los_Angeles:20261203T140000
+DTEND;TZID=America/Los_Angeles:20261203T150000
+DTSTAMP:20261020T070000Z
+UID:2877@physics.ucsd.edu
+DESCRIPTION:<b>Speaker:</b> Physics Undergraduate Advising<br><br><a href=
+ "https://physics.ucsd.edu/students/undergraduate/events">More information 
+ and other undergraduate advising events.</a><br><br><a href="https://physi
+ cs.ucsd.edu/events/seminars-colloquia">https://physics.ucsd.edu/events/sem
+ inars-colloquia</a>
+LOCATION:Mayer 5301
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[Community Event] Tea Time — Physics Graduate Student Council
 DTSTART;TZID=America/Los_Angeles:20261204T113000
 DTEND;TZID=America/Los_Angeles:20261204T123000
@@ -469,5 +724,35 @@ DESCRIPTION:<b>Speaker:</b> Physics Graduate Student Council<br><br>Please
  physics.ucsd.edu/events/seminars-colloquia">https://physics.ucsd.edu/event
  s/seminars-colloquia</a>
 LOCATION:Mayer Hall Student Success Center
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Condense Matter Seminar Series] What is the dynamical exponent of
+  two-dimensional Fermi liquids? — Thomas Scaffidi (UC Irvine)
+DTSTART;TZID=America/Los_Angeles:20270303T160000
+DTEND;TZID=America/Los_Angeles:20270303T170000
+DTSTAMP:20261014T070000Z
+UID:2863@physics.ucsd.edu
+DESCRIPTION:<b>Speaker:</b> Thomas Scaffidi (UC Irvine)<br><br>Over the pa
+ st decade\, experiments in clean materials have revealed that electrons in
+  a solid can flow like a viscous fluid governed by the Navier–Stokes equ
+ ations. This raises a fundamental question: can the fermionic nature of el
+ ectrons give rise to a different kind of hydrodynamics? The answer turns o
+ ut to be yes in two dimensions: long-lived parity-odd deformations of a ci
+ rcular Fermi surface act as additional quasi-conserved quantities\, giving
+  rise to a distinct\, so-called tomographic regime. In this talk\, I will 
+ show how this departure from conventional hydrodynamics extends to the dyn
+ amical realm. Starting from a microscopic numerical evaluation of the line
+ arized electron–electron collision operator\, we find that the nonlocal 
+ conductivity in the tomographic regime is controlled at low frequency by a
+  single hydrodynamic pole\, (\\sigma(q\,\\omega)=D(q)/(i\\omega+\\eta_\\st
+ ar q^z))\, with dynamical exponent (z=4/3) and superdiffusive viscosity (
+ \\eta_\\star). Remarkably\, the Drude weight is itself scale dependent\, o
+ beying (D(q)\\sim q^{-\\alpha}) with (\\alpha=1/3)\, so the dynamical resp
+ onse is characterized by two distinct exponents rather than one. Finally\,
+  I will discuss how AC transport in narrow channels provides a direct expe
+ rimental probe of these two scaling laws.<br><br><a href="https://physics.
+ ucsd.edu/events/seminars-colloquia">https://physics.ucsd.edu/events/semina
+ rs-colloquia</a>
+LOCATION:Mayer Room 4322
 END:VEVENT
 END:VCALENDAR
