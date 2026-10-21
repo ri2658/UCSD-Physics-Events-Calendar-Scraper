@@ -357,6 +357,37 @@ DESCRIPTION:<b>Speaker:</b> Physics Graduate Student Council<br><br>Please
 LOCATION:Mayer Hall Student Success Center
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[HEP Seminar] RG improved (optimized) perturbation: chiral symmetr
+ y breaking and QCD thermodynamics — Jean-Loic Kneur (University of Montp
+ ellier)
+DTSTART;TZID=America/Los_Angeles:20261027T130000
+DTEND;TZID=America/Los_Angeles:20261027T140000
+DTSTAMP:20261020T070000Z
+UID:2880@physics.ucsd.edu
+DESCRIPTION:<b>Speaker:</b> Jean-Loic Kneur (University of Montpellier)<br
+ ><br><b>Abstract: </b>We discuss a specific Renormalization Group (RG) res
+ ummation of perturbative expansions that can give nontrivial results for t
+ he order parameters of chiral symmetry breaking in QCD. We illustrate in p
+ articular the quark condensate obtained up to five-loop order using the Di
+ rac spectral density and related Banks-Casher relation\, and compared to L
+ attice QCD results. We then discuss extensions of this approach to hot QCD
+ \, or to cold and dense QCD. For hot QCD a drastically reduced residual re
+ normalization scale dependence is obtained as compared to standard perturb
+ ative QCD. For cold and dense quark matter the three-loop RG-improved equa
+ tion of state is used to obtain mass-radius relations for pure quark or hy
+ brid hadron-quark compact stars\, which are compared to recent astrophysic
+ al observations.<br><br><b>Speaker Biography: </b>Jean-Loic Kneur is curre
+ ntly the CNRS Director of Research in the Charles Coulomb Lab in Montpelli
+ er\, France. His main research topics have included: higher order correcti
+ ons in Standard Model and supersymmetric models\, supersymmetry and neutra
+ lino dark matter phenomenology\, composite (pseudo-Goldstone) Higgs models
+ \, Effective Theories for thermal QCD (Hard Thermal Loop)\, and more recen
+ tly\, applications to neutron stars.<br><br><a href="https://physics.ucsd.
+ edu/events/seminars-colloquia">https://physics.ucsd.edu/events/seminars-co
+ lloquia</a>
+LOCATION:MYR-A 5623
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[Undergraduate Events] Interviewing Tips & Tricks — Physics Unde
  rgraduate Advising
 DTSTART;TZID=America/Los_Angeles:20261028T130000
@@ -664,6 +695,41 @@ DESCRIPTION:<b>Speaker:</b> Physics Graduate Student Council<br><br>Please
  physics.ucsd.edu/events/seminars-colloquia">https://physics.ucsd.edu/event
  s/seminars-colloquia</a>
 LOCATION:Mayer Hall Student Success Center
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Condense Matter Seminar Series] Fluids within Solids — Fazel Ta
+ fti (Boston College)
+DTSTART;TZID=America/Los_Angeles:20261202T160000
+DTEND;TZID=America/Los_Angeles:20261202T170000
+DTSTAMP:20261020T070000Z
+UID:2878@physics.ucsd.edu
+DESCRIPTION:<b>Speaker:</b> Fazel Tafti (Boston College)<br><br><b>Abstrac
+ t:</b> I will present recent results from my group that demonstrate fluid-
+ like states in solid materials. I start by presenting new advances in find
+ ing metallic specimens with extremely large conductivity\, and show how su
+ ch materials might enter the hydrostatic limit of electronic transport. I 
+ will particularly show our most recent results on NbGe2 \, NbSi2 \, TaGe2 
+ \, and TaSi2 that showcase a beautiful example of tuning electron-phonon c
+ oupling and reveal its influence on quantum and transport mobility. Next\,
+  I will present our recent results in engineering a new generation of Kita
+ ev materials\, where bond directional interactions lead to the emergence o
+ f a quantum spin liquid with fractionalized anionic particles. I will show
+  how physical and chemical pressure have been used to tune the magnetic in
+ teractions in these systems.<br><br><b>Speaker Biography:</b> Fazel Tafti 
+ completed his PhD at the University of Toronto with Prof. Stephen Julian. 
+ His thesis was focused on developing transport experiments under ultrahigh
+  pressures in diamond anvil cells. His first postdoc position at the Unive
+ rsity of Sherbrooke with Prof. Louis Taillefer was focused on the thermal 
+ conductivity and thermoelectric measurements in iron-based superconductors
+  under intense magnetic fields. He then changed fields from physics to che
+ mistry and completed a second postdoc at Princeton University with Prof. B
+ ob Cava. His research was focused on the chemical synthesis of topological
+  and magnetic materials. He started his career at Boston College in 2016 w
+ here he is currently a tenured associate professor of physics. His lab at 
+ BC is interdisciplinary between physics\, chemistry\, and materials scienc
+ e.<br><br><a href="https://physics.ucsd.edu/events/seminars-colloquia">htt
+ ps://physics.ucsd.edu/events/seminars-colloquia</a>
+LOCATION:Mayer Room 4322
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[Undergraduate Events] Careers for PHYS Majors — Physics Undergr
