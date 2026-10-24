@@ -403,6 +403,17 @@ DESCRIPTION:<b>Speaker:</b> Physics Undergraduate Advising<br><br><a href=
 LOCATION:Career Center Horizon Room
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[Condense Matter Seminar Series] CM Seminar: Josh Figureroa
+DTSTART;TZID=America/Los_Angeles:20261028T160000
+DTEND;TZID=America/Los_Angeles:20261028T170000
+DTSTAMP:20261023T070000Z
+UID:2883@physics.ucsd.edu
+DESCRIPTION:<b>Speaker:</b> Josh Figureroa<br><br><a href="https://physics
+ .ucsd.edu/events/seminars-colloquia">https://physics.ucsd.edu/events/semin
+ ars-colloquia</a>
+LOCATION:Mayer Room 4322
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[Undergraduate Events] Careers for PHYS Majors — Physics Undergr
  aduate Advising
 DTSTART;TZID=America/Los_Angeles:20261029T140000
