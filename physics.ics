@@ -403,14 +403,61 @@ DESCRIPTION:<b>Speaker:</b> Physics Undergraduate Advising<br><br><a href=
 LOCATION:Career Center Horizon Room
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[Condense Matter Seminar Series] CM Seminar: Josh Figureroa
+SUMMARY:[Condensed Matter Seminar] Steric Pressure as a Design Element: m-
+ Terphenyl Isocyanides for Curvature-Selective Binding of Nanocrystals and 
+ 2D Surfaces — Josh Figueroa (UC San Diego\, Department of Chemistry)
 DTSTART;TZID=America/Los_Angeles:20261028T160000
 DTEND;TZID=America/Los_Angeles:20261028T170000
-DTSTAMP:20261023T070000Z
+DTSTAMP:20261026T070000Z
 UID:2883@physics.ucsd.edu
-DESCRIPTION:<b>Speaker:</b> Josh Figureroa<br><br><a href="https://physics
- .ucsd.edu/events/seminars-colloquia">https://physics.ucsd.edu/events/semin
- ars-colloquia</a>
+DESCRIPTION:<b>Speaker:</b> Josh Figueroa (UC San Diego\, Department of Ch
+ emistry)<br><br><b>Abstract:</b> Conventional capping ligands such as thio
+ ls\, amines\, and carboxylates are chosen almost entirely for binding ther
+ modynamics. As a result\, they passivate nanocrystal surfaces with little 
+ discrimination between facets\, edges\, and vertices. This presentation de
+ scribes a different approach that treats ligand steric profile as a design
+  variable for spatial control at surfaces. It builds on the <i>m</i>-terph
+ enyl isocyanides\, a ligand class originally developed to enforce low-coor
+ dination numbers at transition-metal centers in molecular compounds. When 
+ m-terphenyl isocyanides bind a surface through the carbon terminus\, the f
+ lanking aryl groups of the framework clash sterically with the surrounding
+  substrate. That repulsion is relieved at convex\, low-coordinate sites\, 
+ so the ligand binds there preferentially. The ligands therefore localize o
+ n high-curvature edges and vertices of shaped Au nanocrystals and avoid ex
+ tended low-index facets. On reconstructed Au(111) surfaces\, the same ster
+ ic pressure confines adsorption to step edges and other undercoordinated s
+ ites\, as shown by STM imaging at the molecular scale. Single-molecule ine
+ lastic electron tunneling spectroscopy\, together with DFT\, uses ν(CN) a
+ s a reporter of binding geometry. These measurements distinguish site-spec
+ ific binding on Au from adatom-mediated binding on Ag. Together\, these re
+ sults establish steric encumbrance as a tunable\, molecularly encoded dete
+ rminant of where a ligand binds. Also discussed is how this principle can 
+ be used to place chemical function selectively at defined topographic feat
+ ures. Looking forward\, this approach in molecular design potentially offe
+ rs a bottom-up route to directed self-assembly and molecular-precision pat
+ terning for next-generation device fabrication.<br><br><b>Bio:</b> Joshua 
+ S. Figueroa completed his graduate studies at the Massachusetts Institute 
+ of Technology in 2005 under the direction of Christopher C. Cummins. From 
+ 2005-2007\, he was a National Institutes of Health Postdoctoral Fellow at 
+ Columbia University in the laboratory of Gerard Parkin. He started his ind
+ ependent career in 2007 and is currently a Professor of Chemistry and the 
+ Leslie E. Orgel Faculty Scholar\, in the Department of Chemistry at the Un
+ iversity of California\, San Diego (UCSD). Figueroa’s research and educa
+ tional efforts have been recognized with a number of awards\, including Na
+ tional Science Foundation CAREER Award (2009)\, an Alfred P. Sloan Researc
+ h Fellowship (2011)\, the Presidential Early Career Award for Scientists a
+ nd Engineers (PECASE\, 2011)\, Department of Energy Early Career Research 
+ Award (2012) and the Camille Dreyfus Teacher-Scholar Award (2012). He was 
+ named a Fellow of the Royal Society of Chemistry (UK) in 2014 and an Alexa
+ nder von Humboldt Research Fellow in 2017. In 2021\, he received a Nationa
+ l Science Foundation Award for Special Creativity for his synthetic work o
+ n low-valent transition metal isocyanide compounds. Most recently he recei
+ ved the 2026 American Chemical Society F. Albert Cotton Award in Synthetic
+  Inorganic Chemistry. Figueroa’s research interests are focused broadly 
+ on synthetic inorganic\, organometallic and materials chemistry\, as well 
+ as applications in catalysis.<br><br><a href="https://physics.ucsd.edu/eve
+ nts/seminars-colloquia">https://physics.ucsd.edu/events/seminars-colloquia
+ </a>
 LOCATION:Mayer Room 4322
 END:VEVENT
 BEGIN:VEVENT
@@ -426,6 +473,26 @@ DESCRIPTION:<b>Speaker:</b> Physics Undergraduate Advising<br><br><a href=
  cs.ucsd.edu/events/seminars-colloquia">https://physics.ucsd.edu/events/sem
  inars-colloquia</a>
 LOCATION:Mayer 5301
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Colloquia] Cosmic Dimensions — Daniel Green (UCSD)
+DTSTART;TZID=America/Los_Angeles:20261029T160000
+DTEND;TZID=America/Los_Angeles:20261029T170000
+DTSTAMP:20261026T070000Z
+UID:2885@physics.ucsd.edu
+DESCRIPTION:<b>Speaker:</b> Daniel Green (UCSD)<br><br>Abstract: Quantum v
+ acuum fluctuations play a central role in cosmology. They underpin our und
+ erstanding of the origin and statistical distribution of matter and object
+ s like stars and galaxies. Yet\, the theory of these fluctuations has been
+  plagued by unexpected divergences that demand explanation. In this talk\,
+  I will review the status of the theoretical machinery behind cosmology. I
+  will explain the physical origin and resolution of these divergences in t
+ erms of scaling dimensions for the degrees of freedom that seed structure.
+  I will then discuss how we can measure these same scaling dimensions in t
+ he statistical distribution of galaxies and report the best current observ
+ ational bounds.<br><br><a href="https://physics.ucsd.edu/events/seminars-c
+ olloquia">https://physics.ucsd.edu/events/seminars-colloquia</a>
+LOCATION:NSB Auditorium
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[Community Event] Tea Time — Physics Graduate Student Council
