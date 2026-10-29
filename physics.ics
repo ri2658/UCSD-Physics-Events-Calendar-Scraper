@@ -569,6 +569,41 @@ DESCRIPTION:<b>Speaker:</b> Physics Undergraduate Advising<br><br><a href=
 LOCATION:Career Center Horizon Room
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[Condensed Matter Seminar] Symmetry-controlled entanglement in dri
+ ven systems: From nonlocal temperature to analog Hawking radiation — Yar
+ oslav Tserkovnyak (UCLA)
+DTSTART;TZID=America/Los_Angeles:20261104T160000
+DTEND;TZID=America/Los_Angeles:20261104T170000
+DTSTAMP:20261028T070000Z
+UID:2887@physics.ucsd.edu
+DESCRIPTION:<b>Speaker:</b> Yaroslav Tserkovnyak (UCLA)<br><br><b>Abstract
+ :</b><br><br>Optically-controlled color centers provide an attractive plat
+ form to study correlated quantum dynamics of qbit ensembles. To date\, the
+ se quantum defects have been widely used as versatile quantum sensors for 
+ a variety of solid-state materials and devices. We propose to use these sa
+ me materials and devices in reverse: as tunable quantum-dissipative enviro
+ nments to engender interesting collective behavior of color centers. The e
+ merging multi-qbit "quantumness" here is both tangible and quantifiable\, 
+ offering new potential strategies for scalable quantum-entangled sensing a
+ nd other quantum-information tasks. I will illustrate our ideas by summari
+ zing two recent papers: "Entangling color centers via magnon-antimagnon pa
+ ir creation" [PRL 134\, 176703 (2025)] and "Breaking a conservation law en
+ ables steady-state entanglement out of equilibrium" [PRB 113\, L121410 (20
+ 26)]. Both ideas embrace "featureful" decoherence as a practical quantum r
+ esource and crucially depend on out-of-equilibrium thermodynamic aspects\,
+  leading us to introduce the concept of a "nonlocal temperature" and propo
+ se to exploit analog Hawking radiation in solid state.<br><br><b>Speaker B
+ iography:</b><br><br>Originally from Ukraine\, earned a Ph.D. in physics a
+ t Harvard University in 2003. Following a stint as a Harvard Junior Fellow
+ \, he has been on faculty at the University of California\, Los Angeles\, 
+ since 2006 (tenured in 2009\, full professor 2013). His main interests lie
+  in the theory of quantum transport and nonequilibrium dynamics in low-dim
+ ensional electron systems\, with a focus on spin and topology.<br><br><a h
+ ref="https://physics.ucsd.edu/events/seminars-colloquia">https://physics.u
+ csd.edu/events/seminars-colloquia</a>
+LOCATION:Mayer Room 4322
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Graduate Application Workshop (Q&A\, letters\, personal statements
  ) — Mattia Serra
 DTSTART;TZID=America/Los_Angeles:20261105T120000
